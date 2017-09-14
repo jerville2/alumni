@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MMSU Alumni Relations</title>
+    <link rel="icon" href="/uploads/articles/mmsuLogo.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
+    <link rel="stylesheet" href="//codeorigin.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <link href="/css/carousel.css" rel="stylesheet">
+    <link href="/css/search.css" rel="stylesheet">
+    <!-- Scripts-->
+    <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-datepicker.js"></script>
+    <script src="/js/jquery-ui.js"></script>
+
+</head>
+<body id="app-layout">
+<div id="app">
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-green navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+
+                        <!-- Collapsed Hamburger -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- BrandImgmage -->
+                        <a class="navbar-brand" href="http://localhost:8000">
+                            <span><img alt="Brand" src="http://localhost:8000/uploads/articles/mmsuLogo.png" width="35px" style="margin-top: -7px; margin-bottom: -5px;"></span>
+                            MMSU Alumni Relations PAGE PREVIEW
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="carousel-profile"></div>
+    <div class="container">
+        <div class="card">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-md-12">
+                        <div class="page-header"><h4><strong>Content Preview</strong></h4></div>
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="content">
+                        <div class="col-md-9 col-md-offset-1">
+                            <script>
+
+                                // Prevent from DOM clobbering.
+                                if ( typeof window.opener._cke_htmlToLoad == 'string' ) {
+                                    var doc = document;
+                                    doc.open();
+                                    doc.write( window.opener._cke_htmlToLoad );
+                                    doc.close();
+
+                                    delete window.opener._cke_htmlToLoad;
+                                }
+
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script type="text/javascript" src="/js/select-filtering.js"></script>
+
+<script src="/js/sweetalert.min.js"></script>
+
+</body>
+</html>

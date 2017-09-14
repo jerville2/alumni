@@ -1,0 +1,1 @@
+{{Form::select('choice',$choices->pluck('text','id')->toArray(),null,array('class'=>'form-control'))}}
